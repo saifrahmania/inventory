@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul,ol{
+    list-style: none;
+}
+a,a:hover{
+    text-decoration: none;
+    color: #000;
+}
+.bg_img{
+    background: no-repeat center ;
+    width: 100%;
+    height: 935px;
+    position: relative;
+}
+.bg_img img{
+    width: 100%;
+    height: 100%;
+}
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+}
+#login_window{
+    margin: 100px auto;
+    width: 380px;
+    height: 450px;
+    background: rgba(179, 255, 198, 0.301);
+}
+#login_window h2{
+    text-align: center;
+    margin-left: 10px;
+    font-size: 40px;
+    font-weight: 700;
+}
+#login_window h4{
+    text-align: center;
+}
+#login_window h4.wrng_pass{
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 15px;
+    color: rgb(184, 16, 16);
+}
+#signup_window h2{
+    text-align: center;
+    margin-left: 10px;
+    font-size: 40px;
+    font-weight: 700;
+}
+.fill_box{
+    margin-top: 15px;
+    text-align: center;
+}
+.fill_box h4{
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+.fill_box input{
+    width: 250px;
+    height: 40px;
+    padding: 10px;
+    border: 0;
+}
+.submit {
+    text-align: center;
+    margin-top: 40px;
+}
+.submit input{
+    width: 250px;
+    height: 35px;
+    font-size: 16px;
+    font-weight: 600;
+    border: 0;
+}
+.submit input:hover{
+    background: rgb(255, 218, 184);
+}
+.new_user{
+    text-align: center;
+    margin-top:20px ;
+}
+.new_user p{
+    font-size: 18px;
+}
+.new_user p a:hover{
+    color: rgb(223, 126, 46);
+}
+.frgt_pswd{
+    text-align: center;
+    margin-top:10px ;
+    font-size: 20px;
+}
+.frgt_pswd a:hover{
+    color: rgb(223, 126, 46);
+}
+/*-------------- SignUp Page Css start---------------- */
+
+#signup_window{
+    width: 500px;
+    height: 750px;
+    margin: 100px auto;
+    background: rgba(179, 255, 198, 0.301);
+}
+#signup_window h4{
+    text-align: center;
+}
+.fill_box #operator{
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    font-size: 16px;
+}
+#signup_window h4.wrng_pass{
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 15px;
+    color: rgb(184, 16, 16);
+}
+
+iframe #fc:hover #hov {
+	display: none;
+}
+
+.form-div { margin-top: 100px; border: 1px solid #e0e0e0; }
+#profileDisplay { display: block; height: 210px; width: 60%; margin: 0px auto; border-radius: 50%; }
+.img-placeholder {
+  width: 60%;
+  color: white;
+  height: 100%;
+  background: black;
+  opacity: .7;
+  height: 210px;
+  border-radius: 50%;
+  z-index: 2;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  display: none;
+}
+.img-placeholder h4 {
+  margin-top: 40%;
+  color: white;
+}
+.img-div:hover .img-placeholder {
+  display: block;
+  cursor: pointer;
+}
